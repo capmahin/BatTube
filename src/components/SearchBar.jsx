@@ -12,9 +12,19 @@ const SearchBar = () => {
         borderRadius:20,
         border:'1px solid #e3e3e3',
         pl:2,
+        boxShadow: 'none',
+        mr:{ sm: 5}
     }}
     >
-     TEST
+     <input
+     className="search-bar"
+     placeholder="Search..."
+     value=""
+     onChange={()=>{}}
+     />
+     <IconButton>
+        <SearchIcon/>
+     </IconButton>
     </Paper>
   )
 }
