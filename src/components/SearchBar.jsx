@@ -5,7 +5,17 @@ import {SearchIcon} from '@mui/icons-material';
 
 const SearchBar = () => {
   return (
-    <div>SearchBar</div>
+    <Paper 
+    component="form"
+    onSubmit={()=> {}}
+    sx={{
+        borderRadius:20,
+        border:'1px solid #e3e3e3',
+        pl:2,
+    }}
+    >
+     TEST
+    </Paper>
   )
 }
 
