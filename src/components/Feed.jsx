@@ -3,7 +3,9 @@ import {Box, Stack, Typography} from '@mui/material';
 
 const Feed = () => {
   return (
-    <div>Feed</div>
+    <Stack sx={{flexDirection: {sm:"column", md:"row"}}}>
+
+    </Stack>
   )
 }
 
