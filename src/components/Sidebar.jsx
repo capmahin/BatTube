@@ -17,7 +17,8 @@ const Sidebar = () =>
           <button 
           className="category-btn"
           style={{
-            background: category.name === selectedCategory && '#FC1503'
+            background: category.name === selectedCategory && '#FC1503',
+            color:'white'
           }}
           >
             <span>{category.icon}</span>
