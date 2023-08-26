@@ -22,7 +22,7 @@ const Sidebar = () =>
           }}
           key={category.name}
           >
-            <span>{category.icon}</span>
+            <span style={{color: category.name === selectedCategory ? 'white' : 'red'}}>{category.icon}</span>
             <span>{category.name}</span>
           </button>
         ))}
