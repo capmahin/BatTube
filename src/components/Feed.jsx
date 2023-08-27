@@ -11,6 +11,12 @@ const Feed = () => {
           Copyright © 2023 Bat Tube
           </Typography>
       </Box>
+
+      <Box>
+        <Typography>
+          <span>videos</span>
+        </Typography>
+      </Box>
     </Stack>
   )
 }
