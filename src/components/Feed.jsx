@@ -13,7 +13,7 @@ const Feed = () => {
       </Box>
 
       <Box>
-        <Typography>
+        <Typography variant="h4" fontWeight="bold" mb={2}>
          New <span style={{color:'#F31503'}} >videos</span>
         </Typography>
       </Box>
