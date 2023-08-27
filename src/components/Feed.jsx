@@ -14,7 +14,7 @@ const Feed = () => {
 
       <Box>
         <Typography>
-          <span style={{color:'#F31503'}} >videos</span>
+         New <span style={{color:'#F31503'}} >videos</span>
         </Typography>
       </Box>
     </Stack>
