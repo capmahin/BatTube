@@ -1,4 +1,6 @@
 import {Stack,Box} from '@mui/material'
+import VideoCard from "./VideoCard";
+import ChannelCard from "./ChannelCard";
 
 const Videos = ({videos}) => {
   console.log(videos);
