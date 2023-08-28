@@ -11,8 +11,8 @@ const VideoCard = ({video:{ id:{
     
   return (
    <Card>
-    <Link>
-      <CardMedia  image={snippet}/>
+    <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
+      <CardMedia  image={snippet?.thumbnails?.high?.url}/>
     </Link>
    </Card>
   )
