@@ -10,7 +10,11 @@ const VideoCard = ({video:{ id:{
 }, snippet}}) => {
     
   return (
-    <div>VideoCard</div>
+   <Card>
+    <Link>
+      <CardMedia  image={snippet}/>
+    </Link>
+   </Card>
   )
 }
 
