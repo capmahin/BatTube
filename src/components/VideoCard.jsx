@@ -5,8 +5,10 @@ import { CheckCircle } from "@mui/icons-material";
 import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelTitle, demoChannelUrl } from "../utils/constants";
 
 
-const VideoCard = ({video}) => {
-    console.log(video);
+const VideoCard = ({video:{ id:{
+    videoId
+}, snippet}}) => {
+    
   return (
     <div>VideoCard</div>
   )
