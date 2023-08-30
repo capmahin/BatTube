@@ -23,6 +23,7 @@ const ChannelCard = ({channelDetail}) =>
           />
           <Typography variant="h6">
             {channelDetail?.snippet?.title}
+            <CheckCircle sx={{fontSize: 12, color: 'gray', ml: '5px'}} />
           </Typography>
        </CardContent>
       </Link>
