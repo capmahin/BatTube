@@ -11,6 +11,10 @@ const ChannelCard = ({channelDetail}) =>
     sx={{
       boxShadow:'none',
       borderRadius:'20px',
+      display:'flex',
+      justifyContent:'center',
+      alignItems:'center',
+      width:{ xs:'356px', md:'329px'}
 
     }}
     >
@@ -27,7 +31,7 @@ const ChannelCard = ({channelDetail}) =>
           </Typography>
           {channelDetail?.statistics?.subscriberCount && (
             <Typography>
-              {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString}
+              {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} Subscribers
             </Typography>
           )}
        </CardContent>
