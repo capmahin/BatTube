@@ -16,7 +16,9 @@ const ChannelCard = ({channelDetail}) =>
     >
       <Link to={`/channel/${channelDetail?.id?.channelId}`}>
        <CardContent sx={{display:'flex', flexDirection:'column', justifyContent:'center', textAlign: 'center', color:'#fff'}}>
-
+          <CardMedia
+          image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
+          />
        </CardContent>
       </Link>
     </Box>
