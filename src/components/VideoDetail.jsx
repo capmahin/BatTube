@@ -13,7 +13,7 @@ const VideoDetail = () => {
         <Stack direction={{xs:'column', md:'row'}}>
            <Box flex={1}>
            <Box sx={{width: '100%', position:'sticky', top: '86px'}}>
-               
+               <ReactPlayer/>
            </Box>
            </Box>
         </Stack>
