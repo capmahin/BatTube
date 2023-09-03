@@ -11,7 +11,7 @@ const VideoDetail = () => {
   const  {id} = useParams();
 
   useEffect(()=>{
-    
+    fetchFromAPI(`videos?part=snippet,statistics&id=${id}`)
   },[id])
   return (
     <Box minHeight="95vh">
