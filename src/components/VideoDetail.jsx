@@ -10,7 +10,9 @@ import { fetchFromAPI } from "../utils/fetchFromAPI";
 const VideoDetail = () => {
   return (
     <Box minHeight="95vh">
+        <Stack direction={{xs:'column', md:'row'}}>
 
+        </Stack>
     </Box>
   )
 }
