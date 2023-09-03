@@ -20,7 +20,10 @@ const VideoDetail = () => {
         <Stack direction={{xs:'column', md:'row'}}>
            <Box flex={1}>
            <Box sx={{width: '100%', position:'sticky', top: '86px'}}>
-               <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} className="react-player"/>
+               <ReactPlayer url={`https://www.youtube.com/watch?v=${id}`} className="react-player" controls/>
+               <Typography>
+                {videoDetail.snippet.title}
+               </Typography>
            </Box>
            </Box>
         </Stack>
